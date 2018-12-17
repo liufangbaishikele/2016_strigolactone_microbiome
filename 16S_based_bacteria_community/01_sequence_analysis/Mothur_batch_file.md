@@ -35,7 +35,7 @@ make.shared(list=ST.trim.contigs.good.unique.precluster.pick.pick.phylip.opti_mc
 
 classify.otu(list=ST.trim.contigs.good.unique.precluster.pick.pick.phylip.opti_mcc.list,count=ST.trim.contigs.good.unique.precluster.denovo.vsearch.pick.pick.count_table,taxonomy=ST.trim.contigs.good.unique.precluster.pick.UNITEv6_sh_97.wang.pick.taxonomy,label=0.03)
 
-## Phylotype based clustering
+*Phylotype based clustering*
 
 phylotype(taxonomy=ST.trim.contigs.good.unique.precluster.pick.UNITEv6_sh_97.wang.pick.taxonomy)
 
@@ -44,10 +44,10 @@ make.shared(list=ST.trim.contigs.good.unique.precluster.pick.UNITEv6_sh_97.wang.
 classify.otu(list=ST.trim.contigs.good.unique.precluster.pick.UNITEv6_sh_97.wang.pick.tx.list,count=ST.trim.contigs.good.unique.precluster.denovo.vsearch.pick.pick.count_table,taxonomy=ST.trim.contigs.good.unique.precluster.pick.UNITEv6_sh_97.wang.pick.taxonomy,label=1)
 
 
-# Doing clustering based on vsearch developed greedy clustering method first, and set up the cutoff to 0.03 as the generated list file will be OTU with 97% similarity. 
+*Doing clustering based on vsearch developed greedy clustering method first, and set up the cutoff to 0.03 as the generated list file will be OTU with 97% similarity.* 
  
-#cluster(fasta=ST.trim.contigs.good.unique.precluster.pick.pick.fasta,count=ST.trim.contigs.good.unique.precluster.denovo.vsearch.pick.pick.count_table,method=dgc,cutoff=0.03,processors=48)
+*cluster(fasta=ST.trim.contigs.good.unique.precluster.pick.pick.fasta,count=ST.trim.contigs.good.unique.precluster.denovo.vsearch.pick.pick.count_table,method=dgc,cutoff=0.03,processors=48)
 
-#make.shared(list=ST.trim.contigs.good.unique.precluster.pick.pick.dgc.list,count=ST.trim.contigs.good.unique.precluster.denovo.vsearch.pick.pick.count_table,label=0.03)
+*make.shared(list=ST.trim.contigs.good.unique.precluster.pick.pick.dgc.list,count=ST.trim.contigs.good.unique.precluster.denovo.vsearch.pick.pick.count_table,label=0.03)
 
-#classify.otu(list=ST.trim.contigs.good.unique.precluster.pick.pick.dgc.list,count=ST.trim.contigs.good.unique.precluster.denovo.vsearch.pick.pick.count_table,taxonomy=ST.trim.contigs.good.unique.precluster.pick.UNITEv6_sh_97.wang.pick.taxonomy,label=0.03)
+*classify.otu(list=ST.trim.contigs.good.unique.precluster.pick.pick.dgc.list,count=ST.trim.contigs.good.unique.precluster.denovo.vsearch.pick.pick.count_table,taxonomy=ST.trim.contigs.good.unique.precluster.pick.UNITEv6_sh_97.wang.pick.taxonomy,label=0.03)
