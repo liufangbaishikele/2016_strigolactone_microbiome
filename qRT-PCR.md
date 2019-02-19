@@ -13,8 +13,8 @@
 
 **Gene clone and hairy root transformation**
 
-* Amplify cDNA from mRNA samples using oligoA and .... primer set
-* And design primer by adding RE sequence and TATA box to the forward primer and the reverse primer.
+* Amplify cDNA from mRNA samples using oligoT and M-MLV reverse transcriptase.
+* The amplified cDNA were subsequently used as template for amplify the coding sequence of selected genes. Durint this PCR process, both restriction enzyme cutting sequence and TATA box were added to the PCR products. 
 
 
 
